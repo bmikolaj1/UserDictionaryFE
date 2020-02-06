@@ -1,0 +1,5 @@
+<input type="file" class="button" #csvReader name="Upload CSV" id="txtFileUpload" (change)="uploadListener($event)"
+  accept=".csv" />
+<br>
+<button class="button" (click)="clearRecords()" id="clearButton">Clear</button>
+<button class="button" (click)="saveRecords($event)" id="saveButton">Save</button>
